@@ -1,0 +1,49 @@
+
+
+.vertical-line {
+    border-left: 1px solid gray;
+    height: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.menu-bars {
+    display:flex;
+   top: 1rem;
+   position:fixed;
+    margin-left: 10rem;
+     font-size: 1rem;
+    color: aliceblue;
+  }
+  .menu-icon {
+    color: aliceblue;
+  }
+  .nav-menu {
+    background-color: #060b26;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+  }
+
+  .nav-menu-items {
+    width: 100%;
+  }
+  
+  .navbar-toggle {
+    background-color: #060b26;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
